@@ -1,0 +1,9 @@
+- 创建mysql数据库 yunzou_edu  utf8mb4 utf8mb4_general_ci 
+- 所有sql导入navicatformysql
+- 启动java项目前，cd nacos/bin/ && sh startup.sh -m standalone 
+- 启动redis，默认使用0号数据库，没有任何用户名和密码
+- ngrok有一行命令要执行，去笔记里找找，是关于整合wx支付那块,    notifyUrl: http://yunzouedu.free.idcfengye.com/api/trade/weixin-pay/callback/notify
+- IDEA依次启动微服务
+- localhost:3000 edu-前台门户
+- localhost:9528 edu-后台管理系统
+- 待我前端大成，我把我把这个项目做成全端项目, uniapp(ios,andriod,wx小程序), vue3_mobile_collage,web_pc_client,web_pc_admin
